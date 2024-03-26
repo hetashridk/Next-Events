@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-function EventItem({ id, title, date, image, location }) {
-
+function EventItem(props) {
+    const { id, title, date, image, location } = props
     const humanReadableDate = new Date(date).toLocaleDateString('en-US', {
         day: 'numeric',
         month: 'long',
