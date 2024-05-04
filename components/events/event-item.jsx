@@ -14,6 +14,7 @@ function EventItem(props) {
     month: 'long',
     year: 'numeric',
   });
+  console.log(typeof(humanReadableDate));
 
   const formattedAddress = location.replace(', ', '\n');
 

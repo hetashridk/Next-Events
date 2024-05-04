@@ -11,6 +11,7 @@ function EventList(props) {
         <EventItem 
         key={event.id} 
         id={event.id} 
+        date={event.date}
         title={event.title} 
         image={event.image} 
         location={event.location}
